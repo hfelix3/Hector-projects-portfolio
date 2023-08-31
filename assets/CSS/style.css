@@ -1,0 +1,187 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    background-color: gray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+
+}
+/* Navigation section */
+nav{
+
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    display: flex;
+    padding: 10px;
+}
+/* Navigation button styling*/
+button {
+    background: black;
+    color: white;
+    padding: 2px 30px;
+}
+/*Navigation button function style*/
+.styled:hover {
+    background-color: darkslategray;
+}
+
+.styled:active {
+    color: black;
+}
+/* Profile picture */
+.me1 {
+    display: flex;
+    justify-content: center;
+}
+.me {
+    width: 50%;
+    height: 50%;
+}
+/* top image for works */
+
+.work1 {
+    display: flex;
+    justify-content: center;
+    border: 5% solid black;
+    margin: 5%;
+}
+
+.work1:hover {
+    background-color: aqua;
+}
+
+.work1::before {
+    content: "Applications";
+    position: absolute;
+    color: darkgray;
+    font-size: 35px;
+    display: inline-block;
+    background-color: darkolivegreen;
+}
+
+.work1:active {
+    size-adjust: 90%;
+}
+
+.workimg11 {
+    height: 35%;
+    width: 100%;
+}
+
+
+
+.p1 {
+}
+
+.h3 {
+    display: flex;
+    border-right: 5px solid black;
+    padding: 10%;
+    font-size: 20px;
+}
+/* work section */
+
+.workimg {
+    width: 300px;
+    height: 300px;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.work2 {
+    margin: 1%;
+}
+
+.work2::before {
+    content: "Timmer";
+    position: absolute;
+    color: darkgray;
+    font-size: 35px;
+    display: inline-block;
+    background-color: darkolivegreen;
+}
+
+.work3 {
+    
+    margin: 1%;
+}
+
+.work3::before {
+    content: "calculator";
+    position: absolute;
+    color: darkgray;
+    font-size: 35px;
+    display: inline-block;
+    background-color: darkolivegreen;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+}
+
+.work4 {
+    margin: 1%;
+}
+
+.work4::before {
+    content: "Calendar";
+    position: absolute;
+    color: darkgray;
+    font-size: 35px;
+    display: inline-block;
+    background-color: darkolivegreen;
+}
+
+.work5 {
+    margin: 1%;
+}
+
+.work5::before {
+    content: "Social";
+    position: absolute;
+    color: darkgray;
+    font-size: 35px;
+    display: inline-block;
+    background-color: darkolivegreen;
+}
+
+/* contact links */
+.cl {
+    display: flex;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color:white;
+}
