@@ -1,5 +1,7 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: darkgrey;
 }
 
 html {
@@ -7,7 +9,8 @@ html {
 }
 
 .body {
-    background-color: gray;
+    background-color: black;
+    margin: 10px;
 }
 
 .header {
@@ -20,7 +23,7 @@ html {
 }
 
 h1{
-
+    color: aquamarine;
 }
 /* Navigation section */
 nav{
@@ -56,38 +59,37 @@ button {
     justify-content: center;
 }
 .me {
-    width: 50%;
-    height: 50%;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
 }
 /* top image for works */
 
 .work1 {
     display: flex;
     justify-content: center;
-    border: 5% solid black;
-    margin: 5%;
 }
 
 .work1:hover {
-    background-color: aqua;
+    background-color: darkslategray;
 }
 
 .work1::before {
     content: "Applications";
     position: absolute;
     color: darkgray;
-    font-size: 35px;
     display: inline-block;
-    background-color: darkolivegreen;
+    background-color: darkslategray;
 }
 
 .work1:active {
     size-adjust: 90%;
+    color: black;
 }
 
 .workimg11 {
-    height: 35%;
-    width: 100%;
+    height: 300px;
+    width: 900px;
 }
 
 
@@ -97,15 +99,15 @@ button {
 
 .h3 {
     display: flex;
-    border-right: 5px solid black;
+    border-left: 5px solid darkslategray;
     padding: 10%;
-    font-size: 20px;
 }
 /* work section */
 
 .workimg {
     width: 300px;
     height: 300px;
+    border-radius: 40px;
 }
 
 .div1 {
@@ -123,9 +125,8 @@ button {
     content: "Timmer";
     position: absolute;
     color: darkgray;
-    font-size: 35px;
     display: inline-block;
-    background-color: darkolivegreen;
+    background-color: darkslategray;
 }
 
 .work3 {
@@ -137,9 +138,8 @@ button {
     content: "calculator";
     position: absolute;
     color: darkgray;
-    font-size: 35px;
     display: inline-block;
-    background-color: darkolivegreen;
+    background-color: darkslategray;
 }
 
 .div2 {
@@ -155,9 +155,8 @@ button {
     content: "Calendar";
     position: absolute;
     color: darkgray;
-    font-size: 35px;
     display: inline-block;
-    background-color: darkolivegreen;
+    background-color: darkslategray;
 }
 
 .work5 {
@@ -168,20 +167,23 @@ button {
     content: "Social";
     position: absolute;
     color: darkgray;
-    font-size: 35px;
     display: inline-block;
-    background-color: darkolivegreen;
+    background-color: darkslategray;
 }
 
 /* contact links */
 .cl {
     display: flex;
+    justify-content: flex-end;
 }
 
+.cl a {
+    padding: 7px;
+}
 
 .footer {
     display: flex;
     justify-content: center;
-    background-color: black;
-    color:white;
+    background-color: darkslategrey;
+    color: aquamarine;
 }
